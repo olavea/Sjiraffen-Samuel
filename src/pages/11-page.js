@@ -29,7 +29,7 @@ const About = () => (
     >
       <img
         style={{
-          width: '300px',
+          width: '800px',
           padding: `0px`,
           marginBottom: `0rem`,
         }}

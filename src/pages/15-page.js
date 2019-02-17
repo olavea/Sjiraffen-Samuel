@@ -18,7 +18,7 @@ const About = () => (
     >
       <img
         style={{
-          width: '300px',
+          width: '800px',
           marginBottom: `0rem`,
         }}
         src={gangster}
