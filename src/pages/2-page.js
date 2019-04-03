@@ -4,10 +4,12 @@ import Layout from '../components/layout'
 import { Link } from 'gatsby'
 import gangster from '../images/neste_side_Kris_norsk_text.png'
 import Samuel from '../images/2_norsk.png'
+import AppWes from '../components/AppWes'
 
 const nextPage = '/3-page'
+const thisPage = '/2-page'
 
-const About = () => (
+const TwoPage = () => (
   <Layout>
     <Link
       to={nextPage}
@@ -32,7 +34,8 @@ const About = () => (
       src={Samuel}
       alt="Sjiraffen Samuel"
     />
+    <AppWes denneSiden="/2-page" />
   </Layout>
 )
 
-export default About
+export default TwoPage
